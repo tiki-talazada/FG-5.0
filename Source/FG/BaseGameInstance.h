@@ -8,8 +8,9 @@
 
 UENUM(BlueprintType)
 enum class CharClass : uint8 {
-	Default		UMETA(DisplayName = "Default"),
-	Pink		UMETA(DisplayName = "Pink")
+	Boss		UMETA(DisplayName = "Boss"),
+	Pink		UMETA(DisplayName = "Pink"),
+	Alex		UMETA(DisplayName = "Alex")
 };
 
 /**
